@@ -1,0 +1,33 @@
+{
+  "name": "plugin-test-variables",
+  "version": "1.0.0",
+  "description": "Used for testing plugin variables.",
+  "main": "index.js",
+  "nativescript": {
+      "platforms": {
+        "android": "1.3.0",
+        "ios": "1.3.0"
+      },
+      "variables": {
+          "MY-VAR": {},
+          "COLOR": {}
+      }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosen-vladimirov/plugin-test-variables.git"
+  },
+  "keywords": [
+    "plugins",
+    "test"
+  ],
+  "author": "Rosen Vladimirov",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/rosen-vladimirov/plugin-test-variables/issues"
+  },
+  "homepage": "https://github.com/rosen-vladimirov/plugin-test-variables#readme"
+}
